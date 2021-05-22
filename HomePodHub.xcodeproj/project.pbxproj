@@ -1,0 +1,1325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B03F9815264E428400B9E69A /* SpringboardStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03F9814264E428400B9E69A /* SpringboardStatusCell.swift */; };
+		B03F9817264E52B600B9E69A /* SpringboardStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03F9816264E52B600B9E69A /* SpringboardStatus.swift */; };
+		B03F9821264E5B0D00B9E69A /* PhotoSlideshow.h in Headers */ = {isa = PBXBuildFile; fileRef = B03F981F264E5B0D00B9E69A /* PhotoSlideshow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B03F9824264E5B0D00B9E69A /* PhotoSlideshow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03F981D264E5B0D00B9E69A /* PhotoSlideshow.framework */; };
+		B03F9825264E5B0D00B9E69A /* PhotoSlideshow.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B03F981D264E5B0D00B9E69A /* PhotoSlideshow.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B03F982A264E5B1A00B9E69A /* PhotoSlideshowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03F9829264E5B1A00B9E69A /* PhotoSlideshowViewController.swift */; };
+		B0458810264F6AAF002DEC70 /* HomeAccessoryTileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B045880F264F6AAF002DEC70 /* HomeAccessoryTileCell.swift */; };
+		B0458812264F770B002DEC70 /* SectionHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0458811264F770B002DEC70 /* SectionHeaderReusableView.swift */; };
+		B06D322F264D0172007CFB3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D322E264D0172007CFB3C /* AppDelegate.swift */; };
+		B06D3231264D0172007CFB3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D3230264D0172007CFB3C /* SceneDelegate.swift */; };
+		B06D3235264D0173007CFB3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06D3234264D0173007CFB3C /* Assets.xcassets */; };
+		B06D3238264D0173007CFB3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06D3237264D0173007CFB3C /* Preview Assets.xcassets */; };
+		B06D323B264D0173007CFB3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06D3239264D0173007CFB3C /* LaunchScreen.storyboard */; };
+		B06D3243264D0183007CFB3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D3242264D0183007CFB3C /* ViewController.swift */; };
+		B06D324F264D0CFF007CFB3C /* SFDayTiming.json in Resources */ = {isa = PBXBuildFile; fileRef = B06D324E264D0CFF007CFB3C /* SFDayTiming.json */; };
+		B06D3251264D0D15007CFB3C /* SFNightTiming.json in Resources */ = {isa = PBXBuildFile; fileRef = B06D3250264D0D15007CFB3C /* SFNightTiming.json */; };
+		B0771AC926522FE000D9442E /* rick.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B0771AC826522FE000D9442E /* rick.mp4 */; };
+		B0771AD326522FF500D9442E /* YouTubeApp.h in Headers */ = {isa = PBXBuildFile; fileRef = B0771AD126522FF500D9442E /* YouTubeApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0771AD626522FF500D9442E /* YouTubeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0771ACF26522FF500D9442E /* YouTubeApp.framework */; };
+		B0771AD726522FF500D9442E /* YouTubeApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0771ACF26522FF500D9442E /* YouTubeApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B0771ADC2652303D00D9442E /* YouTubeAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0771ADB2652303D00D9442E /* YouTubeAppViewController.swift */; };
+		B0771ADE2652322900D9442E /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0771ADD2652322900D9442E /* PlayerControlsView.swift */; };
+		B0771AE126523A0D00D9442E /* YouTubeSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0771ADF2652399600D9442E /* YouTubeSans-Medium.ttf */; };
+		B0771AEB265246F500D9442E /* BookmarksApp.h in Headers */ = {isa = PBXBuildFile; fileRef = B0771AE9265246F500D9442E /* BookmarksApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0771AEE265246F500D9442E /* BookmarksApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0771AE7265246F500D9442E /* BookmarksApp.framework */; };
+		B0771AEF265246F500D9442E /* BookmarksApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0771AE7265246F500D9442E /* BookmarksApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B0771AF4265247B200D9442E /* BookmarksAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0771AF3265247B200D9442E /* BookmarksAppViewController.swift */; };
+		B0771AF7265249E600D9442E /* BookmarkPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0771AF6265249E600D9442E /* BookmarkPage.swift */; };
+		B078912F264EF52000909DBB /* NoPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B078912E264EF52000909DBB /* NoPermissionView.swift */; };
+		B078913A264F0BB700909DBB /* HomeApp.h in Headers */ = {isa = PBXBuildFile; fileRef = B0789138264F0BB700909DBB /* HomeApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B078913D264F0BB700909DBB /* HomeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0789136264F0BB700909DBB /* HomeApp.framework */; };
+		B078913E264F0BB700909DBB /* HomeApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0789136264F0BB700909DBB /* HomeApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B0789143264F0BC600909DBB /* HomeAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0789142264F0BC600909DBB /* HomeAppViewController.swift */; };
+		B090E20B264E178F00142A44 /* SpringboardMimicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090E20A264E178F00142A44 /* SpringboardMimicViewController.swift */; };
+		B090E210264E27A500142A44 /* SpringboardAppIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090E20F264E27A500142A44 /* SpringboardAppIconCell.swift */; };
+		B090E212264E2D0200142A44 /* SpringboardAppLaunchAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090E211264E2D0200142A44 /* SpringboardAppLaunchAnimator.swift */; };
+		B090E224264E3D4300142A44 /* AerialApp.h in Headers */ = {isa = PBXBuildFile; fileRef = B090E222264E3D4300142A44 /* AerialApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B090E227264E3D4300142A44 /* AerialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B090E220264E3D4300142A44 /* AerialApp.framework */; };
+		B090E228264E3D4300142A44 /* AerialApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B090E220264E3D4300142A44 /* AerialApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B090E233264E3D5E00142A44 /* AerialScreensaverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090E232264E3D5E00142A44 /* AerialScreensaverViewController.swift */; };
+		B090E23C264E3D8B00142A44 /* AerialVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090E230264E3D4F00142A44 /* AerialVideo.swift */; };
+		B090E23D264E3D8D00142A44 /* AerialTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090E231264E3D4F00142A44 /* AerialTiming.swift */; };
+		B0F34059264F0F5500283E3D /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F34058264F0F5500283E3D /* HomeKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B03F9822264E5B0D00B9E69A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06D3223264D0172007CFB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B03F981C264E5B0D00B9E69A;
+			remoteInfo = PhotoSlideshow;
+		};
+		B0771AD426522FF500D9442E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06D3223264D0172007CFB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0771ACE26522FF500D9442E;
+			remoteInfo = YouTubeApp;
+		};
+		B0771AEC265246F500D9442E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06D3223264D0172007CFB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0771AE6265246F500D9442E;
+			remoteInfo = BookmarksApp;
+		};
+		B078913B264F0BB700909DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06D3223264D0172007CFB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0789135264F0BB700909DBB;
+			remoteInfo = HomeApp;
+		};
+		B090E225264E3D4300142A44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06D3223264D0172007CFB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B090E21F264E3D4300142A44;
+			remoteInfo = AerialApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B090E22C264E3D4300142A44 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B0771AEF265246F500D9442E /* BookmarksApp.framework in Embed Frameworks */,
+				B03F9825264E5B0D00B9E69A /* PhotoSlideshow.framework in Embed Frameworks */,
+				B078913E264F0BB700909DBB /* HomeApp.framework in Embed Frameworks */,
+				B0771AD726522FF500D9442E /* YouTubeApp.framework in Embed Frameworks */,
+				B090E228264E3D4300142A44 /* AerialApp.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B03F9814264E428400B9E69A /* SpringboardStatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringboardStatusCell.swift; sourceTree = "<group>"; };
+		B03F9816264E52B600B9E69A /* SpringboardStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringboardStatus.swift; sourceTree = "<group>"; };
+		B03F981D264E5B0D00B9E69A /* PhotoSlideshow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhotoSlideshow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B03F981F264E5B0D00B9E69A /* PhotoSlideshow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoSlideshow.h; sourceTree = "<group>"; };
+		B03F9820264E5B0D00B9E69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B03F9829264E5B1A00B9E69A /* PhotoSlideshowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSlideshowViewController.swift; sourceTree = "<group>"; };
+		B045880F264F6AAF002DEC70 /* HomeAccessoryTileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAccessoryTileCell.swift; sourceTree = "<group>"; };
+		B0458811264F770B002DEC70 /* SectionHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderReusableView.swift; sourceTree = "<group>"; };
+		B0458813264F7B3C002DEC70 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B06D322B264D0172007CFB3C /* HomePodHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomePodHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06D322E264D0172007CFB3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B06D3230264D0172007CFB3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B06D3234264D0173007CFB3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B06D3237264D0173007CFB3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B06D323A264D0173007CFB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B06D323C264D0173007CFB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06D3242264D0183007CFB3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B06D324E264D0CFF007CFB3C /* SFDayTiming.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SFDayTiming.json; sourceTree = "<group>"; };
+		B06D3250264D0D15007CFB3C /* SFNightTiming.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SFNightTiming.json; sourceTree = "<group>"; };
+		B0771AC826522FE000D9442E /* rick.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rick.mp4; sourceTree = "<group>"; };
+		B0771ACF26522FF500D9442E /* YouTubeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YouTubeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0771AD126522FF500D9442E /* YouTubeApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YouTubeApp.h; sourceTree = "<group>"; };
+		B0771AD226522FF500D9442E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0771ADB2652303D00D9442E /* YouTubeAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeAppViewController.swift; sourceTree = "<group>"; };
+		B0771ADD2652322900D9442E /* PlayerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlsView.swift; sourceTree = "<group>"; };
+		B0771ADF2652399600D9442E /* YouTubeSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YouTubeSans-Medium.ttf"; sourceTree = "<group>"; };
+		B0771AE7265246F500D9442E /* BookmarksApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BookmarksApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0771AE9265246F500D9442E /* BookmarksApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookmarksApp.h; sourceTree = "<group>"; };
+		B0771AEA265246F500D9442E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0771AF3265247B200D9442E /* BookmarksAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksAppViewController.swift; sourceTree = "<group>"; };
+		B0771AF6265249E600D9442E /* BookmarkPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkPage.swift; sourceTree = "<group>"; };
+		B078912E264EF52000909DBB /* NoPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPermissionView.swift; sourceTree = "<group>"; };
+		B0789130264F049800909DBB /* HomePodHub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomePodHub.entitlements; sourceTree = "<group>"; };
+		B0789136264F0BB700909DBB /* HomeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HomeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0789138264F0BB700909DBB /* HomeApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeApp.h; sourceTree = "<group>"; };
+		B0789139264F0BB700909DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0789142264F0BC600909DBB /* HomeAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAppViewController.swift; sourceTree = "<group>"; };
+		B090E20A264E178F00142A44 /* SpringboardMimicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringboardMimicViewController.swift; sourceTree = "<group>"; };
+		B090E20F264E27A500142A44 /* SpringboardAppIconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringboardAppIconCell.swift; sourceTree = "<group>"; };
+		B090E211264E2D0200142A44 /* SpringboardAppLaunchAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringboardAppLaunchAnimator.swift; sourceTree = "<group>"; };
+		B090E220264E3D4300142A44 /* AerialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AerialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B090E222264E3D4300142A44 /* AerialApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AerialApp.h; sourceTree = "<group>"; };
+		B090E223264E3D4300142A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B090E230264E3D4F00142A44 /* AerialVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AerialVideo.swift; sourceTree = "<group>"; };
+		B090E231264E3D4F00142A44 /* AerialTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AerialTiming.swift; sourceTree = "<group>"; };
+		B090E232264E3D5E00142A44 /* AerialScreensaverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AerialScreensaverViewController.swift; sourceTree = "<group>"; };
+		B0F34058264F0F5500283E3D /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B03F981A264E5B0D00B9E69A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06D3228264D0172007CFB3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0771AD626522FF500D9442E /* YouTubeApp.framework in Frameworks */,
+				B03F9824264E5B0D00B9E69A /* PhotoSlideshow.framework in Frameworks */,
+				B0771AEE265246F500D9442E /* BookmarksApp.framework in Frameworks */,
+				B078913D264F0BB700909DBB /* HomeApp.framework in Frameworks */,
+				B0F34059264F0F5500283E3D /* HomeKit.framework in Frameworks */,
+				B090E227264E3D4300142A44 /* AerialApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771ACC26522FF500D9442E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771AE4265246F500D9442E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0789133264F0BB700909DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B090E21D264E3D4300142A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B03F981E264E5B0D00B9E69A /* PhotoSlideshow */ = {
+			isa = PBXGroup;
+			children = (
+				B03F981F264E5B0D00B9E69A /* PhotoSlideshow.h */,
+				B03F9820264E5B0D00B9E69A /* Info.plist */,
+				B03F9829264E5B1A00B9E69A /* PhotoSlideshowViewController.swift */,
+				B078912D264EF51400909DBB /* View */,
+			);
+			path = PhotoSlideshow;
+			sourceTree = "<group>";
+		};
+		B06D3222264D0172007CFB3C = {
+			isa = PBXGroup;
+			children = (
+				B0458813264F7B3C002DEC70 /* README.md */,
+				B06D322D264D0172007CFB3C /* HomePodHub */,
+				B090E221264E3D4300142A44 /* AerialApp */,
+				B03F981E264E5B0D00B9E69A /* PhotoSlideshow */,
+				B0789137264F0BB700909DBB /* HomeApp */,
+				B0771AD026522FF500D9442E /* YouTubeApp */,
+				B0771AE8265246F500D9442E /* BookmarksApp */,
+				B06D322C264D0172007CFB3C /* Products */,
+				B090E216264E3CF800142A44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B06D322C264D0172007CFB3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B06D322B264D0172007CFB3C /* HomePodHub.app */,
+				B090E220264E3D4300142A44 /* AerialApp.framework */,
+				B03F981D264E5B0D00B9E69A /* PhotoSlideshow.framework */,
+				B0789136264F0BB700909DBB /* HomeApp.framework */,
+				B0771ACF26522FF500D9442E /* YouTubeApp.framework */,
+				B0771AE7265246F500D9442E /* BookmarksApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B06D322D264D0172007CFB3C /* HomePodHub */ = {
+			isa = PBXGroup;
+			children = (
+				B0789130264F049800909DBB /* HomePodHub.entitlements */,
+				B06D322E264D0172007CFB3C /* AppDelegate.swift */,
+				B06D3230264D0172007CFB3C /* SceneDelegate.swift */,
+				B06D3242264D0183007CFB3C /* ViewController.swift */,
+				B090E20A264E178F00142A44 /* SpringboardMimicViewController.swift */,
+				B090E211264E2D0200142A44 /* SpringboardAppLaunchAnimator.swift */,
+				B090E20E264E279A00142A44 /* View */,
+				B06D3234264D0173007CFB3C /* Assets.xcassets */,
+				B06D3239264D0173007CFB3C /* LaunchScreen.storyboard */,
+				B06D323C264D0173007CFB3C /* Info.plist */,
+				B06D3236264D0173007CFB3C /* Preview Content */,
+				B090E203264E0D2500142A44 /* Resources */,
+				B03F9816264E52B600B9E69A /* SpringboardStatus.swift */,
+			);
+			path = HomePodHub;
+			sourceTree = "<group>";
+		};
+		B06D3236264D0173007CFB3C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B06D3237264D0173007CFB3C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B0771AD026522FF500D9442E /* YouTubeApp */ = {
+			isa = PBXGroup;
+			children = (
+				B0771AD126522FF500D9442E /* YouTubeApp.h */,
+				B0771AD226522FF500D9442E /* Info.plist */,
+				B0771ADB2652303D00D9442E /* YouTubeAppViewController.swift */,
+				B0771ADD2652322900D9442E /* PlayerControlsView.swift */,
+			);
+			path = YouTubeApp;
+			sourceTree = "<group>";
+		};
+		B0771AE8265246F500D9442E /* BookmarksApp */ = {
+			isa = PBXGroup;
+			children = (
+				B0771AE9265246F500D9442E /* BookmarksApp.h */,
+				B0771AEA265246F500D9442E /* Info.plist */,
+				B0771AF3265247B200D9442E /* BookmarksAppViewController.swift */,
+				B0771AF5265249D900D9442E /* Model */,
+			);
+			path = BookmarksApp;
+			sourceTree = "<group>";
+		};
+		B0771AF5265249D900D9442E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0771AF6265249E600D9442E /* BookmarkPage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B078912D264EF51400909DBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B078912E264EF52000909DBB /* NoPermissionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0789137264F0BB700909DBB /* HomeApp */ = {
+			isa = PBXGroup;
+			children = (
+				B0789142264F0BC600909DBB /* HomeAppViewController.swift */,
+				B0B33327264F27C300B11FB0 /* View */,
+				B0789138264F0BB700909DBB /* HomeApp.h */,
+				B0789139264F0BB700909DBB /* Info.plist */,
+			);
+			path = HomeApp;
+			sourceTree = "<group>";
+		};
+		B090E203264E0D2500142A44 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0771ADF2652399600D9442E /* YouTubeSans-Medium.ttf */,
+				B0771AC826522FE000D9442E /* rick.mp4 */,
+				B090E214264E3C9000142A44 /* Aerial */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B090E204264E0D2A00142A44 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B090E206264E0D3300142A44 /* SFNight */,
+				B090E205264E0D2F00142A44 /* SFDay */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B090E205264E0D2F00142A44 /* SFDay */ = {
+			isa = PBXGroup;
+			children = (
+				B06D324E264D0CFF007CFB3C /* SFDayTiming.json */,
+			);
+			path = SFDay;
+			sourceTree = "<group>";
+		};
+		B090E206264E0D3300142A44 /* SFNight */ = {
+			isa = PBXGroup;
+			children = (
+				B06D3250264D0D15007CFB3C /* SFNightTiming.json */,
+			);
+			path = SFNight;
+			sourceTree = "<group>";
+		};
+		B090E20E264E279A00142A44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B090E20F264E27A500142A44 /* SpringboardAppIconCell.swift */,
+				B03F9814264E428400B9E69A /* SpringboardStatusCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B090E214264E3C9000142A44 /* Aerial */ = {
+			isa = PBXGroup;
+			children = (
+				B090E204264E0D2A00142A44 /* Resources */,
+			);
+			path = Aerial;
+			sourceTree = "<group>";
+		};
+		B090E216264E3CF800142A44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0F34058264F0F5500283E3D /* HomeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B090E221264E3D4300142A44 /* AerialApp */ = {
+			isa = PBXGroup;
+			children = (
+				B090E232264E3D5E00142A44 /* AerialScreensaverViewController.swift */,
+				B090E22F264E3D4F00142A44 /* Model */,
+				B090E222264E3D4300142A44 /* AerialApp.h */,
+				B090E223264E3D4300142A44 /* Info.plist */,
+			);
+			path = AerialApp;
+			sourceTree = "<group>";
+		};
+		B090E22F264E3D4F00142A44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B090E230264E3D4F00142A44 /* AerialVideo.swift */,
+				B090E231264E3D4F00142A44 /* AerialTiming.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0B33327264F27C300B11FB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B045880F264F6AAF002DEC70 /* HomeAccessoryTileCell.swift */,
+				B0458811264F770B002DEC70 /* SectionHeaderReusableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B03F9818264E5B0D00B9E69A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03F9821264E5B0D00B9E69A /* PhotoSlideshow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771ACA26522FF500D9442E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0771AD326522FF500D9442E /* YouTubeApp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771AE2265246F500D9442E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0771AEB265246F500D9442E /* BookmarksApp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0789131264F0BB700909DBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B078913A264F0BB700909DBB /* HomeApp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B090E21B264E3D4300142A44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B090E224264E3D4300142A44 /* AerialApp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B03F981C264E5B0D00B9E69A /* PhotoSlideshow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B03F9826264E5B0D00B9E69A /* Build configuration list for PBXNativeTarget "PhotoSlideshow" */;
+			buildPhases = (
+				B03F9818264E5B0D00B9E69A /* Headers */,
+				B03F9819264E5B0D00B9E69A /* Sources */,
+				B03F981A264E5B0D00B9E69A /* Frameworks */,
+				B03F981B264E5B0D00B9E69A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoSlideshow;
+			productName = PhotoSlideshow;
+			productReference = B03F981D264E5B0D00B9E69A /* PhotoSlideshow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B06D322A264D0172007CFB3C /* HomePodHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06D323F264D0173007CFB3C /* Build configuration list for PBXNativeTarget "HomePodHub" */;
+			buildPhases = (
+				B06D3227264D0172007CFB3C /* Sources */,
+				B06D3228264D0172007CFB3C /* Frameworks */,
+				B06D3229264D0172007CFB3C /* Resources */,
+				B090E22C264E3D4300142A44 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B090E226264E3D4300142A44 /* PBXTargetDependency */,
+				B03F9823264E5B0D00B9E69A /* PBXTargetDependency */,
+				B078913C264F0BB700909DBB /* PBXTargetDependency */,
+				B0771AD526522FF500D9442E /* PBXTargetDependency */,
+				B0771AED265246F500D9442E /* PBXTargetDependency */,
+			);
+			name = HomePodHub;
+			packageProductDependencies = (
+			);
+			productName = HomePodHub;
+			productReference = B06D322B264D0172007CFB3C /* HomePodHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0771ACE26522FF500D9442E /* YouTubeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0771AD826522FF500D9442E /* Build configuration list for PBXNativeTarget "YouTubeApp" */;
+			buildPhases = (
+				B0771ACA26522FF500D9442E /* Headers */,
+				B0771ACB26522FF500D9442E /* Sources */,
+				B0771ACC26522FF500D9442E /* Frameworks */,
+				B0771ACD26522FF500D9442E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTubeApp;
+			productName = YouTubeApp;
+			productReference = B0771ACF26522FF500D9442E /* YouTubeApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0771AE6265246F500D9442E /* BookmarksApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0771AF0265246F500D9442E /* Build configuration list for PBXNativeTarget "BookmarksApp" */;
+			buildPhases = (
+				B0771AE2265246F500D9442E /* Headers */,
+				B0771AE3265246F500D9442E /* Sources */,
+				B0771AE4265246F500D9442E /* Frameworks */,
+				B0771AE5265246F500D9442E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookmarksApp;
+			productName = BookmarksApp;
+			productReference = B0771AE7265246F500D9442E /* BookmarksApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0789135264F0BB700909DBB /* HomeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B078913F264F0BB700909DBB /* Build configuration list for PBXNativeTarget "HomeApp" */;
+			buildPhases = (
+				B0789131264F0BB700909DBB /* Headers */,
+				B0789132264F0BB700909DBB /* Sources */,
+				B0789133264F0BB700909DBB /* Frameworks */,
+				B0789134264F0BB700909DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeApp;
+			productName = HomeApp;
+			productReference = B0789136264F0BB700909DBB /* HomeApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B090E21F264E3D4300142A44 /* AerialApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B090E229264E3D4300142A44 /* Build configuration list for PBXNativeTarget "AerialApp" */;
+			buildPhases = (
+				B090E21B264E3D4300142A44 /* Headers */,
+				B090E21C264E3D4300142A44 /* Sources */,
+				B090E21D264E3D4300142A44 /* Frameworks */,
+				B090E21E264E3D4300142A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AerialApp;
+			productName = AerialApp;
+			productReference = B090E220264E3D4300142A44 /* AerialApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06D3223264D0172007CFB3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B03F981C264E5B0D00B9E69A = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+					B06D322A264D0172007CFB3C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					B0771ACE26522FF500D9442E = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+					B0771AE6265246F500D9442E = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+					B0789135264F0BB700909DBB = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+					B090E21F264E3D4300142A44 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = B06D3226264D0172007CFB3C /* Build configuration list for PBXProject "HomePodHub" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B06D3222264D0172007CFB3C;
+			productRefGroup = B06D322C264D0172007CFB3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B06D322A264D0172007CFB3C /* HomePodHub */,
+				B090E21F264E3D4300142A44 /* AerialApp */,
+				B03F981C264E5B0D00B9E69A /* PhotoSlideshow */,
+				B0789135264F0BB700909DBB /* HomeApp */,
+				B0771ACE26522FF500D9442E /* YouTubeApp */,
+				B0771AE6265246F500D9442E /* BookmarksApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B03F981B264E5B0D00B9E69A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06D3229264D0172007CFB3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0771AC926522FE000D9442E /* rick.mp4 in Resources */,
+				B0771AE126523A0D00D9442E /* YouTubeSans-Medium.ttf in Resources */,
+				B06D323B264D0173007CFB3C /* LaunchScreen.storyboard in Resources */,
+				B06D3238264D0173007CFB3C /* Preview Assets.xcassets in Resources */,
+				B06D324F264D0CFF007CFB3C /* SFDayTiming.json in Resources */,
+				B06D3235264D0173007CFB3C /* Assets.xcassets in Resources */,
+				B06D3251264D0D15007CFB3C /* SFNightTiming.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771ACD26522FF500D9442E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771AE5265246F500D9442E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0789134264F0BB700909DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B090E21E264E3D4300142A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B03F9819264E5B0D00B9E69A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B078912F264EF52000909DBB /* NoPermissionView.swift in Sources */,
+				B03F982A264E5B1A00B9E69A /* PhotoSlideshowViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06D3227264D0172007CFB3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B090E20B264E178F00142A44 /* SpringboardMimicViewController.swift in Sources */,
+				B090E210264E27A500142A44 /* SpringboardAppIconCell.swift in Sources */,
+				B06D3243264D0183007CFB3C /* ViewController.swift in Sources */,
+				B06D322F264D0172007CFB3C /* AppDelegate.swift in Sources */,
+				B06D3231264D0172007CFB3C /* SceneDelegate.swift in Sources */,
+				B03F9817264E52B600B9E69A /* SpringboardStatus.swift in Sources */,
+				B03F9815264E428400B9E69A /* SpringboardStatusCell.swift in Sources */,
+				B090E212264E2D0200142A44 /* SpringboardAppLaunchAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771ACB26522FF500D9442E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0771ADC2652303D00D9442E /* YouTubeAppViewController.swift in Sources */,
+				B0771ADE2652322900D9442E /* PlayerControlsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771AE3265246F500D9442E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0771AF7265249E600D9442E /* BookmarkPage.swift in Sources */,
+				B0771AF4265247B200D9442E /* BookmarksAppViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0789132264F0BB700909DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0789143264F0BC600909DBB /* HomeAppViewController.swift in Sources */,
+				B0458812264F770B002DEC70 /* SectionHeaderReusableView.swift in Sources */,
+				B0458810264F6AAF002DEC70 /* HomeAccessoryTileCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B090E21C264E3D4300142A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B090E233264E3D5E00142A44 /* AerialScreensaverViewController.swift in Sources */,
+				B090E23C264E3D8B00142A44 /* AerialVideo.swift in Sources */,
+				B090E23D264E3D8D00142A44 /* AerialTiming.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B03F9823264E5B0D00B9E69A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B03F981C264E5B0D00B9E69A /* PhotoSlideshow */;
+			targetProxy = B03F9822264E5B0D00B9E69A /* PBXContainerItemProxy */;
+		};
+		B0771AD526522FF500D9442E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0771ACE26522FF500D9442E /* YouTubeApp */;
+			targetProxy = B0771AD426522FF500D9442E /* PBXContainerItemProxy */;
+		};
+		B0771AED265246F500D9442E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0771AE6265246F500D9442E /* BookmarksApp */;
+			targetProxy = B0771AEC265246F500D9442E /* PBXContainerItemProxy */;
+		};
+		B078913C264F0BB700909DBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0789135264F0BB700909DBB /* HomeApp */;
+			targetProxy = B078913B264F0BB700909DBB /* PBXContainerItemProxy */;
+		};
+		B090E226264E3D4300142A44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B090E21F264E3D4300142A44 /* AerialApp */;
+			targetProxy = B090E225264E3D4300142A44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B06D3239264D0173007CFB3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06D323A264D0173007CFB3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B03F9827264E5B0D00B9E69A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PhotoSlideshow/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jcsoftware.PhotoSlideshow;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B03F9828264E5B0D00B9E69A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PhotoSlideshow/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jcsoftware.PhotoSlideshow;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B06D323D264D0173007CFB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B06D323E264D0173007CFB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B06D3240264D0173007CFB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HomePodHub/HomePodHub.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HomePodHub/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HomePodHub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jcsoftware.HomePodHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B06D3241264D0173007CFB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HomePodHub/HomePodHub.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HomePodHub/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HomePodHub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jcsoftware.HomePodHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0771AD926522FF500D9442E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YouTubeApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jcsoftware.YouTubeApp;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0771ADA26522FF500D9442E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YouTubeApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jcsoftware.YouTubeApp;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0771AF1265246F500D9442E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BookmarksApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jcsoftware.BookmarksApp;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0771AF2265246F500D9442E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BookmarksApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jcsoftware.BookmarksApp;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0789140264F0BB700909DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HomeApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jcsoftware.HomeApp;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0789141264F0BB700909DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HomeApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jcsoftware.HomeApp;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B090E22A264E3D4300142A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AerialApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jcsoftware.AerialApp;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B090E22B264E3D4300142A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AerialApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jcsoftware.AerialApp;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B03F9826264E5B0D00B9E69A /* Build configuration list for PBXNativeTarget "PhotoSlideshow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B03F9827264E5B0D00B9E69A /* Debug */,
+				B03F9828264E5B0D00B9E69A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06D3226264D0172007CFB3C /* Build configuration list for PBXProject "HomePodHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06D323D264D0173007CFB3C /* Debug */,
+				B06D323E264D0173007CFB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06D323F264D0173007CFB3C /* Build configuration list for PBXNativeTarget "HomePodHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06D3240264D0173007CFB3C /* Debug */,
+				B06D3241264D0173007CFB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0771AD826522FF500D9442E /* Build configuration list for PBXNativeTarget "YouTubeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0771AD926522FF500D9442E /* Debug */,
+				B0771ADA26522FF500D9442E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0771AF0265246F500D9442E /* Build configuration list for PBXNativeTarget "BookmarksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0771AF1265246F500D9442E /* Debug */,
+				B0771AF2265246F500D9442E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B078913F264F0BB700909DBB /* Build configuration list for PBXNativeTarget "HomeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0789140264F0BB700909DBB /* Debug */,
+				B0789141264F0BB700909DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B090E229264E3D4300142A44 /* Build configuration list for PBXNativeTarget "AerialApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B090E22A264E3D4300142A44 /* Debug */,
+				B090E22B264E3D4300142A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06D3223264D0172007CFB3C /* Project object */;
+}
